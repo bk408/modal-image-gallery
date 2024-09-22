@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  position: relative;
+}
+
+.collection-box {
+  padding: 18px;
+  border: 2px solid black;
+  box-shadow: 0 3px 5px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1200px;
+  gap: 15px;
+}
+
+.collection-images-list {
+  width: 100%;
+  height: auto;
+}
+
+.collection-images-list img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
